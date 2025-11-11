@@ -1,0 +1,34 @@
+
+IVF SUCCESS PREDICTION - DATA EXPLORATION REPORT
+======================================================================
+
+DATASET SOURCE: Kaggle IVF Dataset
+DATE: 2025-11-05
+
+1. DATASET OVERVIEW
+   - Total patients: 2,000
+   - Total features: 43
+   - Success rate: 51.40%
+
+2. DATA QUALITY
+   - Missing values: 1 features affected
+   - Duplicate rows: 0
+   
+3. TOP PREDICTIVE FEATURES (by correlation)
+   1. Estrogen_E2_Level: +0.024
+   2. Years_of_Infertility: +0.017
+   3. AMH_Level: +0.016
+   4. Number_of_IVF_Cycles: +0.015
+   5. Number_of_Embryos_Transferred: +0.014
+
+
+4. RECOMMENDED FEATURES FOR MODELING: 22
+
+5. NEXT STEPS
+   ✓ Handle categorical variables (encoding)
+   ✓ Feature scaling/normalization
+   ✓ Train/test split (stratified)
+   ✓ Build baseline model
+   ✓ Build neural network
+   
+======================================================================

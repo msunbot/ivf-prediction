@@ -1,0 +1,15 @@
+{
+  "test_acc": 0.5,
+  "test_prec": 0.5192307692307693,
+  "test_rec": 0.3932038834951456,
+  "test_f1": 0.44751381215469616,
+  "test_auc": 0.5227454709238315,
+  "best_val_auc": 0.5503830519074422,
+  "artifacts": {
+    "model": "artifacts/best_model.pt",
+    "history": "artifacts/history.json",
+    "figure": "artifacts/nn_training_report_pytorch.png",
+    "means": "artifacts/feature_means.npy",
+    "stds": "artifacts/feature_stds.npy"
+  }
+}
